@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_c4fcf712dc4e4aa5a3bc34ea3a69556e {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c4fcf712dc4e4aa5a3bc34ea3a69556e" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_c4fcf712dc4e4aa5a3bc34ea3a69556e = L.map(
+                                  'map_c4fcf712dc4e4aa5a3bc34ea3a69556e',
+                                  {center: [49.85,24.0166666667],
+                                  zoom: 1,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_5dd9fb7211e4458ab397104eee1a51d7 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_c4fcf712dc4e4aa5a3bc34ea3a69556e);
+        
+    
+            var feature_group_93d7a316d37241f7b7557cca554593c6 = L.featureGroup(
+                ).addTo(map_c4fcf712dc4e4aa5a3bc34ea3a69556e);
+        
+    
+
+            var marker_60050929b36c4462ba582a0106528da7 = L.marker(
+                [40.7306458,-73.9866136],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_93d7a316d37241f7b7557cca554593c6);
+            
+    
+            var popup_06ca5ce800604634ae70117b52d951a4 = L.popup({maxWidth: '300'});
+
+            
+                var html_1292e8ab72f04b4db17e9c0367622c71 = $('<div id="html_1292e8ab72f04b4db17e9c0367622c71" style="width: 100.0%; height: 100.0%;">Samantha Power</div>')[0];
+                popup_06ca5ce800604634ae70117b52d951a4.setContent(html_1292e8ab72f04b4db17e9c0367622c71);
+            
+
+            marker_60050929b36c4462ba582a0106528da7.bindPopup(popup_06ca5ce800604634ae70117b52d951a4);
+
+            
+        
+    
+
+            var marker_3183f3c010014e0bbfefa80ea7d194ba = L.marker(
+                [50.4501071,30.5240501],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_93d7a316d37241f7b7557cca554593c6);
+            
+    
+            var popup_2642f12b64cb4a28978b7c749d985cb2 = L.popup({maxWidth: '300'});
+
+            
+                var html_59e167ff27b14fb888c5d99b11ba058e = $('<div id="html_59e167ff27b14fb888c5d99b11ba058e" style="width: 100.0%; height: 100.0%;">Semen Kabakaev</div>')[0];
+                popup_2642f12b64cb4a28978b7c749d985cb2.setContent(html_59e167ff27b14fb888c5d99b11ba058e);
+            
+
+            marker_3183f3c010014e0bbfefa80ea7d194ba.bindPopup(popup_2642f12b64cb4a28978b7c749d985cb2);
+
+            
+        
+    
+
+            var marker_78fb36f44d824df8b05101d2d48a6289 = L.marker(
+                [42.3604823,-71.0595678],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_93d7a316d37241f7b7557cca554593c6);
+            
+    
+            var popup_5ec41f82a35c422cb57734796c55edae = L.popup({maxWidth: '300'});
+
+            
+                var html_89cdefa373de48ab97a1a87d29514c42 = $('<div id="html_89cdefa373de48ab97a1a87d29514c42" style="width: 100.0%; height: 100.0%;">Vala Afshar</div>')[0];
+                popup_5ec41f82a35c422cb57734796c55edae.setContent(html_89cdefa373de48ab97a1a87d29514c42);
+            
+
+            marker_78fb36f44d824df8b05101d2d48a6289.bindPopup(popup_5ec41f82a35c422cb57734796c55edae);
+
+            
+        
+    
+
+            var marker_a0906fb1c4974c16b7485f247d2d9df7 = L.marker(
+                [30.2711286,-97.7436995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_93d7a316d37241f7b7557cca554593c6);
+            
+    
+            var popup_1fab52cba9ce41d7b70d80a2fea47e3a = L.popup({maxWidth: '300'});
+
+            
+                var html_15286c85872842059e3c3b0f83c52533 = $('<div id="html_15286c85872842059e3c3b0f83c52533" style="width: 100.0%; height: 100.0%;">Leslie Chunta</div>')[0];
+                popup_1fab52cba9ce41d7b70d80a2fea47e3a.setContent(html_15286c85872842059e3c3b0f83c52533);
+            
+
+            marker_a0906fb1c4974c16b7485f247d2d9df7.bindPopup(popup_1fab52cba9ce41d7b70d80a2fea47e3a);
+
+            
+        
+</script>
